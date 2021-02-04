@@ -4,5 +4,13 @@ h1 {
 }
 
 body {
-  background-image: url("kapli712.github.io/studio_crossplatform_storytelling/1.jpg");
+  background-image: url("1.jpg");
+  position: absolute;
+width: 1482px;
+height: 1478px;
+left: 0px;
+top: -578px;
+
+background: url(1.jpg);
 }
+
