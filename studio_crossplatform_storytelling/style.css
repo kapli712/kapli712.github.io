@@ -1,1 +1,8 @@
-style.css
+h1 {
+  text-align: center;
+  color: red;
+}
+
+body {
+  background-image: url("kapli712.github.io/studio_crossplatform_storytelling/1.jpg");
+}
