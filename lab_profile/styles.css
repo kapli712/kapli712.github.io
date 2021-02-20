@@ -12,7 +12,7 @@ p {
   font-style: bold;
   color: blue;  }
   
- #web-ring {
+#web-ring {
     position: fixed;
     top: 15px;
     right: 15px;
@@ -20,14 +20,14 @@ p {
     background-color: rgb(52, 86, 228);
     border: solid 2px white;
     font-family: sans-serif;
-  }
 
-  #web-ring a:link {
-    color: white;
+  }
+#web-ring a:link {
+    color: red;
     text-decoration: none;
   }
 
-  #web-ring a:hover {
+#web-ring a:hover {
     text-decoration: underline;
   }
   
