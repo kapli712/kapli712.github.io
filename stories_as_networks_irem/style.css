@@ -96,4 +96,41 @@ top: 290px;
 z-index: -1;
 background: linear-gradient(180deg, #7D7A8E 32.22%, rgba(174, 74, 74, 0.18) 100%);
 }
+
+@media screen and (min-width: 480px) {
+  main-title {position: absolute;
+width: 414px;
+height: 101px;
+left: -1px;
+top: 29px;
+
+font-family: Hatton;
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 55px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+  author {position: absolute;
+width: 659px;
+height: 79px;
+left: -123px;
+top: 479px;
+
+font-family: Hatton;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;}
+}
   
