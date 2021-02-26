@@ -1,3 +1,7 @@
+
+
+
+
 /* header styles begin here */
 .header {
   position: absolute;
@@ -586,8 +590,8 @@ color: #FFFFFF;
 position: absolute;
 width: 818px;
 height: 630px;
-left: 495px;
-top: 9824px;
+left: 300px;
+top: 9790px;
 
 font-family: ?????;
 font-style: normal;
@@ -605,9 +609,9 @@ color: #FFFFFF;
 .comp1 {
 position: absolute;
 width: 818px;
-height: 630px;
-left: 495px;
-top: 9824px;
+height: 313px;
+left: 50px;
+top: 10450px;
 
 font-family: ?????;
 font-style: normal;
@@ -618,16 +622,16 @@ line-height: 48px;
 
 display: flex;
 align-items: center;
-text-align: right;
 
 color: #FFFFFF;
+
 } 
 .comp2 {
 position: absolute;
 width: 818px;
 height: 630px;
-left: 495px;
-top: 9824px;
+left: 370px;
+top: 10800px;
 
 font-family: ?????;
 font-style: normal;
@@ -644,10 +648,10 @@ color: #FFFFFF;
 } 
 .comp3 {
 position: absolute;
-width: 818px;
-height: 630px;
-left: 495px;
-top: 9824px;
+width: 694px;
+height: 148px;
+left: 40px;
+top: 11400px;
 
 font-family: ?????;
 font-style: normal;
@@ -658,17 +662,18 @@ line-height: 48px;
 
 display: flex;
 align-items: center;
-text-align: right;
+text-align: center;
 
-color: #FFFFFF;
+color: #000000;
+
 } 
 
 .comp4 {
 position: absolute;
 width: 818px;
 height: 630px;
-left: 495px;
-top: 9824px;
+left: 400px;
+top: 11600px;
 
 font-family: ?????;
 font-style: normal;
@@ -686,9 +691,9 @@ color: #FFFFFF;
 .comp5 {
 position: absolute;
 width: 818px;
-height: 630px;
-left: 495px;
-top: 9824px;
+height: 599px;
+left: 50px;
+top: 12300px;
 
 font-family: ?????;
 font-style: normal;
@@ -699,30 +704,71 @@ line-height: 48px;
 
 display: flex;
 align-items: center;
-text-align: right;
 
 color: #FFFFFF;
 } 
 .final {
 position: absolute;
-width: 818px;
-height: 630px;
-left: 495px;
-top: 9824px;
+width: 1100px;
+height: 550px;
+left: 40px;
+top: 12800px;
 
 font-family: ?????;
 font-style: normal;
 font-weight: normal;
-font-size: 30px;
+font-size: 50px;
 line-height: 48px;
 /* or 160% */
 
 display: flex;
 align-items: center;
-text-align: right;
+text-align: center;
+
+color: #000000;
+
+} 
+@media screen and (max-width: 600px) {
+  .main-content {
+    background: blue;
+  }
+  .header {
+  position: absolute;
+width: 414px;
+height: 140px;
+left: 0px;
+top: 0px;
+
+background: #000000;
+}
+
+.main-title {
+  position: absolute;
+width: 414px;
+height: 101px;
+left: -1px;
+top: 29px;
+
+font-family: Hatton;
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 55px;
+display: flex;
+align-items: center;
+text-align: center;
 
 color: #FFFFFF;
-} 
+}
+}
+
+
+
+
+
+
+
+
 
 
 
