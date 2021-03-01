@@ -756,6 +756,14 @@ color: #000000;
 
 } 
 @media screen and (max-width: 600px) {
+  @font-face {
+    font-family: 'hattonmedium';
+    src: url('fonts/hatton-medium-webfont.woff2') format('woff2'),
+         url('fonts/hatton-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
   .main-content {
     background: pink;
   }
@@ -776,7 +784,7 @@ height: 101px;
 left: -1px;
 top: 29px;
 
-font-family: Hatton;
+font-family: 'hattonmedium';
 font-style: normal;
 font-weight: 500;
 font-size: 44px;
@@ -796,7 +804,7 @@ height: 79px;
 left: 100px;
 top: 165px;
 
-font-family: Hatton;
+font-family: 'hattonmedium';
 font-style: normal;
 font-weight: 500;
 font-size: 22px;
