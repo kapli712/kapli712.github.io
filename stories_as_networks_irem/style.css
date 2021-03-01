@@ -1,3 +1,36 @@
+@font-face {
+    font-family: 'hattonmedium';
+    src: url('fonts/hatton-medium-webfont.woff2') format('woff2'),
+         url('fonts/hatton-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hattonsemibold';
+    src: url('fonts/hatton-semibold-webfont.woff2') format('woff2'),
+         url('fonts/hatton-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hattonultralight';
+    src: url('fonts/hatton-ultralight-webfont.woff2') format('woff2'),
+         url('fonts/hatton-ultralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 
 
@@ -20,7 +53,7 @@
   left: 129px;
   top: 262px;
 
-  font-family: Hatton;
+  font-family: 'hattonultralight';
   font-style: normal;
   font-weight: 100;
   font-size: 140px;
@@ -40,7 +73,7 @@
   left: 390px;
   top: 640px;
 
-  font-family: Hatton;
+  font-family: 'hattonsemibold';
   font-style: normal;
   font-weight: 500;
   font-size: 70px;
