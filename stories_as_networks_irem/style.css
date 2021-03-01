@@ -762,7 +762,7 @@ color: #000000;
   .header {
   position: absolute;
 width: 414px;
-height: 140px;
+height: 260px;
 left: 0px;
 top: 0px;
 
@@ -770,13 +770,13 @@ background: #000000;
 }
 
 .main-title {
-  position: absolute;
+position: absolute;
 width: 414px;
 height: 101px;
 left: -1px;
 top: 29px;
 
-font-family: 'hattonmedium';
+font-family: Hatton;
 font-style: normal;
 font-weight: 500;
 font-size: 44px;
@@ -788,6 +788,42 @@ text-align: center;
 color: #FFFFFF;
 
 }
+
+.author {
+  position: absolute;
+width: 659px;
+height: 79px;
+left: 100px;
+top: 165px;
+
+font-family: Hatton;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 28px;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: grey;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
