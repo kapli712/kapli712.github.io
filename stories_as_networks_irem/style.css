@@ -31,9 +31,6 @@
 
 }
 
-body {
- background: linear-gradient(180deg, #665CA0 17.68%, rgba(165, 76, 99, 0.645521) 41.26%, rgba(146, 101, 113, 0.645521) 70.42%, rgba(174, 74, 74, 0.18) 100%);
-}
 
 /* header styles begin here */
 .header {
@@ -85,7 +82,15 @@ body {
 
   color: #FFFFFF;
 }
+.main-content {
+position: absolute;
+width: 1440px;
+height: 12788px;
+left: 0px;
+top: 259px;
 
+background: linear-gradient(180deg, #665CA0 17.68%, rgba(165, 76, 99, 0.645521) 41.26%, rgba(146, 101, 113, 0.645521) 70.42%, rgba(174, 74, 74, 0.18) 100%);
+}
 .text {
   position: absolute;
   width: 88px;
@@ -109,7 +114,7 @@ body {
 
 .qmarkimg {
 position: absolute;
-width: 2616.89px;
+
 height: 1800px;
 left: 594px;
 top: -1100px;
@@ -169,8 +174,7 @@ color: #FFFFFF;
 
 .emarkimg {
  position: absolute;
-width: 2616.89px;
-height: 1518.05px;
+
 left: -60px;
 top: 200px;
 
@@ -253,8 +257,7 @@ color: #FFFFFF;
 }
 .apoimg {
 position: absolute;
-width: 2510.45px;
-height: 1284.13px;
+
 left: -302.99px;
 top: 3197px;
 
@@ -371,7 +374,7 @@ color: #FFFFFF;
 } 
 .pimg {
 position: absolute;
-width: 2616.89px;
+
 height: 2000px;
 left: -365px;
 top: 4200px;
@@ -533,8 +536,7 @@ color: #FFFFFF;
 } 
 .cimg {
 position: absolute;
-width: 2616.89px;
-height: 1518.05px;
+
 left: 488px;
 top: 7800px;
 
@@ -754,7 +756,7 @@ color: #000000;
 } 
 @media screen and (max-width: 600px) {
   .main-content {
-    background: blue;
+    background: pink;
   }
   .header {
   position: absolute;
