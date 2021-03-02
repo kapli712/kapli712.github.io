@@ -753,5 +753,36 @@ align-items: center;
 text-align: center;
 
 color: #000000;
-
 } 
+
+@media only screen and (max-width: 600px) {
+ .header {
+  position: absolute;
+  width: 1440px;
+  height: 290px;
+  left: 0px;
+  top: 0px;
+
+  background: lightblue;
+}
+
+.main-title {
+  position: absolute;
+  width: 1181px;
+  height: 80px;
+  left: 129px;
+  top: 262px;
+
+  font-family: 'hattonultralight';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 140px;
+  line-height: 176px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: black;
+}
+}
