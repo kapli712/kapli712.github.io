@@ -1,22 +1,22 @@
 html, body {
     height: 100%;
     margin: 0;
-    background-color: rgb(235, 231, 225);
+    background-color: lightblue ;
   }
   .container {
 
     margin:auto;
-    padding-top: 10%;
+    padding-top: 2%;
     justify-content: center;
-    min-height: 70%;
-    max-width: 70%;
+    min-height: 90%;
+    max-width: 90%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
   }
   .container > div {
     display: flex; 
-    flex-basis: auto;  
+    flex-basis: calc(50% - 5%);  
     justify-content: center;
     flex-direction: column;
   }
@@ -27,21 +27,46 @@ html, body {
   }
   
   .box { margin: 1%; }
-  .box1 { background-color: rgb(140, 161, 112);
-    border-radius: 0px 100px 0px 100px; }
-  .box2 { background-color: rgb(245, 174, 165); 
-    border-radius: 100px 0px 100px 0px;}
-  .box3 { background-color: rgb(245, 174, 165); 
-    border-radius: 100px 0px 100px 0px;}
-  .box4 { background-color: rgb(140, 161, 112); 
-    border-radius: 0px 100px 0px 100px;}
 
+  .box1 {width: 0;
+        height: 0;
+        border: 100px solid orange;
+        border-radius: 100px 100px 0px 0px;}
 
+  .box2 {height: 150;
+        background-color: rgb(245, 174, 165); 
+        border-radius: 100px 100px 100px 100px;}
 
+  .box3 {height: 150;
+        background-color: rgb(245, 174, 165); 
+        border-radius: 100px 100px 100px 100px;}
 
+  .box4 {width: 0;
+        height: 0;
+        border: 100px solid orange;
+        border-radius: 0px 0px 100px 100px;}
 
 
   
+
+@media only screen and (max-width: 450px) {
+
+    .container {
+        margin:auto;
+        padding-top: 30%;
+        justify-content: center;
+        max-height: 50%;
+        max-width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+      }
+
+
+}
+
+
+
 
 @media only screen and (max-width: 450px) {
 
