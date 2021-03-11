@@ -68,18 +68,3 @@ html, body {
 
 
 
-@media only screen and (max-width: 450px) {
-
-    .container {
-        margin:auto;
-        padding-top: 30%;
-        justify-content: center;
-        max-height: 50%;
-        max-width: 80%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-      }
-
-
-}
