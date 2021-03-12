@@ -32,3 +32,8 @@ p {
 #web-ring a:hover {
     text-decoration: underline;
   }
+
+ .firefly {
+   width: 400px;
+   height: 400px;
+  }
