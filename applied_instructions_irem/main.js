@@ -1,5 +1,5 @@
 var limit=100, // Max number of starts
-  var container=document.getElementById('container');
+  container=document.getElementById('container');
 //initilizeing
 start:function(){
     for (var i=0; i <= limit; i++) {
