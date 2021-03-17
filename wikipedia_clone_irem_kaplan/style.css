@@ -9,10 +9,10 @@ body {
 
 /* Style the header */
 header {
-  background-color: #666;
+  background-color: beige;
   padding: 30px;
   text-align: center;
-  font-size: 35px;
+  font-size: 70px;
   color: white;
   font-family: 'Redressed', cursive;
 }
@@ -49,7 +49,7 @@ article {
 
 /* Style the footer */
 footer {
-  background-color: #777;
+  background-color: lightgrey;
   padding: 10px;
   text-align: center;
   color: white;
