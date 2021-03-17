@@ -10,7 +10,7 @@ body {
 /* Style the header */
 header {
   background-color: beige;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   font-size: 50px;
   color: black;
@@ -48,7 +48,7 @@ article {
   -webkit-flex: 3;
   -ms-flex: 3;
   flex: 3;
-  background-color: lightpink;
+  background-color: beige;
   padding: 10px;
 }
 
@@ -58,14 +58,14 @@ p {
 }
 
 h2 {
-  font-size: 24px;
-  color: darkgrey;
+  font-size: 28px;
+  color: blue;
 }
 
 /* Style the footer */
 footer {
   background-color: lightgrey;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
   color: black;
 }
