@@ -23,16 +23,6 @@ section {
   display: flex;
 }
 
-/* Style the navigation menu 
-nav {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  background: lightblue;
-  padding: 20px;
-}*/
-
-/* Style the list inside the menu */
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -80,6 +70,7 @@ p {
 h2 {
   font-size: 28px;
   color: black;
+  text-align: center;
 }
 
 /* Style the footer */
