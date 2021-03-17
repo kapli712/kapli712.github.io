@@ -9,7 +9,7 @@ body {
 
 /* Style the header */
 header {
-  background-image: url("header.jpg");
+  background-color: yellow;
   padding: 10px;
   text-align: center;
   font-size: 50px;
