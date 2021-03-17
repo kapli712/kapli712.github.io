@@ -41,11 +41,12 @@ nav ul {
   font-size: 18px;
   color: black;
   font-family: 'Raleway', sans-serif;
-  width: 200px;
+  width: 100px;
 }
 
 li a {
   display: block;
+  text-align: center;
   color: #000;
   padding: 8px 16px;
   text-decoration: none;
@@ -54,7 +55,7 @@ li a {
 /* Change the link color on hover */
 li a:hover {
   background-color: lightblue;
-  color: pink;
+  color: red;
 }
 
 /* Style the content */
