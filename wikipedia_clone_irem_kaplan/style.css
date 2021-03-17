@@ -34,7 +34,6 @@ nav {
 
 /* Style the list inside the menu */
 nav ul {
-  list-style-type: none;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -59,7 +58,7 @@ p {
 
 h2 {
   font-size: 28px;
-  color: blue;
+  color: black;
 }
 
 /* Style the footer */
