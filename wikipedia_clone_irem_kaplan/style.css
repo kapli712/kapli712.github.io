@@ -38,7 +38,7 @@ nav ul {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-size: 220px;
+  font-size: 18px;
   color: black;
   font-family: 'Redressed', cursive;
 }
@@ -53,11 +53,11 @@ article {
 }
 
 p {
-  font-size: 22px;
+  font-size: 18px;
 }
 
 h2 {
-  font-size: 33px;
+  font-size: 24px;
   color: pink;
 }
 
