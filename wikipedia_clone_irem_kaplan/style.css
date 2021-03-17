@@ -48,17 +48,18 @@ article {
   -webkit-flex: 3;
   -ms-flex: 3;
   flex: 3;
-  background-color: #f1f1f1;
+  background-color: lightpink;
   padding: 10px;
 }
 
 p {
   font-size: 18px;
+  color: black;
 }
 
 h2 {
   font-size: 24px;
-  color: pink;
+  color: darkgrey;
 }
 
 /* Style the footer */
