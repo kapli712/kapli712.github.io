@@ -9,7 +9,7 @@ body {
 
 /* Style the header */
 header {
-  background-color: beige;
+  background-color: orange;
   padding: 10px;
   text-align: center;
   font-size: 50px;
@@ -42,12 +42,13 @@ nav ul {
   color: black;
   font-family: 'Raleway', sans-serif;
   width: 200px;
+  background-color: beige;
 }
 
 li a {
   display: block;
-  width: 100px;
-  color: #000;
+  width: 200px;
+  color: black;
   padding: 8px 16px;
   text-decoration: none;
 }
@@ -70,6 +71,8 @@ article {
 p {
   font-size: 18px;
   color: black;
+  padding: 5px;
+  margin: 5px;
 }
 
 h2 {
