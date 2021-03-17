@@ -10,9 +10,9 @@ body {
 /* Style the header */
 header {
   background-color: beige;
-  padding: 30px;
+  padding: 25px;
   text-align: center;
-  font-size: 70px;
+  font-size: 55px;
   color: black;
   font-family: 'Redressed', cursive;
 }
