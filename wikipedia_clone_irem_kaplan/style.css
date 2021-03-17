@@ -14,7 +14,7 @@ header {
   text-align: center;
   font-size: 50px;
   color: black;
-  font-family: 'Redressed', cursive;
+  font-family: 'Akaya Telivigala', cursive;
 }
 
 /* Container for flexboxes */
@@ -73,6 +73,8 @@ p {
   color: black;
   padding: 5px;
   margin: 5px;
+  border: 2px;
+  border-color: gray;
 }
 
 h2 {
