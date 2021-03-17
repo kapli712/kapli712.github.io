@@ -37,6 +37,10 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: center;
+  font-size: 220px;
+  color: black;
+  font-family: 'Redressed', cursive;
 }
 
 /* Style the content */
