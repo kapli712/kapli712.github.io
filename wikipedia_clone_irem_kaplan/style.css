@@ -17,6 +17,12 @@ header {
   font-family: 'Akaya Telivigala', cursive;
 }
 
+header:hover {
+  background-color: lightblue;
+  color: white;
+}
+
+
 /* Container for flexboxes */
 section {
   display: -webkit-flex;
@@ -31,13 +37,13 @@ nav ul {
   font-size: 24px;
   color: black;
   font-family: 'Akaya Telivigala', cursive;
-  width: 200px;
+  width: 300px;
   background-color: beige;
 }
 
 li a {
   display: block;
-  width: 200px;
+  width: 300px;
   color: black;
   padding: 8px 16px;
   text-decoration: none;
