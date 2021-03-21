@@ -43,9 +43,18 @@ html {
 }
 
 .header {
-  background-color: #9933cc;
-  color: #ffffff;
-  padding: 15px;
+  font-family: 'hattonultralight';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 140px;
+  line-height: 176px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
 }
 
 .menu ul {
