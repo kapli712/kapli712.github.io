@@ -57,12 +57,11 @@ background: linear-gradient(0deg, rgba(146,34,195,0.711922268907563) 28%, rgba(4
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: lightblue;
   padding: 1px;
   text-decoration: none;
   list-style-type: none;
-}
 
 h1 {
 font-family: "hattonmedium";
@@ -104,6 +103,7 @@ a:link {
 }
 a:visited {
   text-decoration: none;
+  color: white;
 }
 /* mouse over link */
 a:hover {
