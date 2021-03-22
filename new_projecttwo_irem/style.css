@@ -49,6 +49,24 @@ background: linear-gradient(0deg, rgba(146,34,195,0.711922268907563) 28%, rgba(4
   padding: 0px;
 }
 
+.header:hover {
+  font-family: "hattonultralight";
+  font-size: 50px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+  padding: 0px;
+  text-decoration: none;
+
+}
+
+.header li:hover {
+  color: purple;
+  text-decoration: none;
+}
+
 h1 {
 font-family: "hattonmedium";
 text-align: center;
