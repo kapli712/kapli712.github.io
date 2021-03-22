@@ -57,14 +57,16 @@ background: linear-gradient(0deg, rgba(146,34,195,0.711922268907563) 28%, rgba(4
   text-transform: uppercase;
   background-color: white;
   color: black;
-  padding: 0px;
+  padding: 1px;
   text-decoration: none;
+  list-style-type: none;
 
 }
 
 .header li:hover {
   color: purple;
   text-decoration: none;
+  list-style-type: none;
 }
 
 h1 {
