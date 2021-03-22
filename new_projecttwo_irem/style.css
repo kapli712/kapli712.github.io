@@ -47,6 +47,8 @@ background: linear-gradient(0deg, rgba(146,34,195,0.711922268907563) 28%, rgba(4
   background-color: black;
   color: white;
   padding: 1px;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 .header li:hover {
@@ -100,7 +102,9 @@ a:link {
   color: black;
   text-decoration: none;
 }
-
+a:visited {
+  text-decoration: none;
+}
 /* mouse over link */
 a:hover {
   color: white;
