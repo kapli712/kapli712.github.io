@@ -46,6 +46,9 @@
   padding: 1px;
 }
 
+h1 {
+ font-family: "hattonmedium";
+}
 .menu ul {
   list-style-type: none;
   margin: 0;
