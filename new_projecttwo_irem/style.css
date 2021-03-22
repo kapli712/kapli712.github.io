@@ -70,6 +70,21 @@ h1 {
   background-color: black;
 }
 
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: grey;
+}
+
 .aside {
   background-color: #33b5e5;
   padding: 15px;
