@@ -1,0 +1,73 @@
+
+body {
+  font-family: futura;
+  color: black;
+  margin: 3em;
+  background-image: linear-gradient(white, black);
+}
+
+h1 {
+  font-family: futura;
+  color: red;
+  font-size: 70px;
+  text-align: center;
+}
+
+h1:hover {
+  font-family: futura;
+  color: black;
+  font-size: 70px;
+  text-align: center;
+}
+
+p {
+  font-style: bold;
+  color: blue; 
+}
+
+.ppic:hover {
+  filter: invert(100%);
+}
+
+.spotify {
+   
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ppic {
+   width: 300px;
+   height: 600px;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  }
+  
+#web-ring {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    padding: 15px;
+    background-color: rgb(52, 86, 228);
+    border: solid 2px white;
+    font-family: sans-serif;
+
+  }
+#web-ring a:link {
+    color: red;
+    text-decoration: none;
+  }
+
+#web-ring a:hover {
+    text-decoration: underline;
+  }
+
+ .firefly {
+   width: 600px;
+   height: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
