@@ -6,38 +6,38 @@ var base = new Airtable({ apiKey: "keyVU0VlP3PqfTuyH" }).base(
 );
 
 //get the "books" table from the base, select ALL the records, and specify the functions that will receive the data
-base("books").select({}).eachPage(gotPageOfBooks, gotAllBooks);
+base("anime").select({}).eachPage(gotPageOfAnime, gotAllAnime);
 
 // an empty array to hold our book data
-const books = [];
+const anime = [];
 
 // callback function that receives our data
-function gotPageOfBooks(records, fetchNextPage) {
-  console.log("gotPageOfBooks()");
+function gotPageOfAnime(records, fetchNextPage) {
+  console.log("gotPageOfAnime()");
   // add the records from this page to our books array
-  books.push(...records);
+  anime.push(...records);
   // request more pages
   fetchNextPage();
 }
 
 // call back function that is called when all pages are loaded
-function gotAllBooks(err) {
-  console.log("gotAllBooks()");
+function gotAllAnime(err) {
+  console.log("gotAllAnime()");
 
   // report an error, you'd want to do something better than this in production
   if (err) {
-    console.log("error loading books");
+    console.log("error loading anime");
     console.error(err);
     return;
   }
 
   // call function to show the books
-  showBooks();
+  showAnime();
 }
 
 // create the book-spines on the shelf
-function showBooks() {
-  console.log("showBooks()");
+function showAnime() {
+  console.log("showAnime()");
 
   // find the shelf element
   const shelf = document.getElementById("shelf");
