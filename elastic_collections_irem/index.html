@@ -10,55 +10,7 @@
   </head>
 
   <body>
-    <h1>Japanese Anime</h1>
-    <nav id="shelf" class="shelf"></nav>
-    <article id="book-detail" class="book-detail hidden">
-      <section class="figure">
-        <img
-          class="cover-image"
-          src="./images/nuku1.png"
-          alt="nuku1"
-        />
-      </section>
-
-        <section class="figure">
-        <img
-          class="cover-image"
-          src="./images/sailormoon1.png"
-          alt="nuku1"
-        />
-      </section>
-
-        <section class="figure">
-        <img
-          class="cover-image"
-          src="./images/sakura1.png"
-          alt="nuku1"
-        />
-      </section>
-      <section class="info">
-        <h2 class="title">The Practice of Programming</h2>
-        <p class="description">
-          The wiener dog book! Rather than focusing on a specific language or
-          library, this book pulls back and looks at the big big picture of
-          programming.
-        </p>
-
-
-        
-      </section>
-    </article>
-  </body>
-
-</html>
-
-
-
-
-
-<body>
-
-<!-- MAIN (Center website) -->
+    <!-- MAIN (Center website) -->
 <div class="main">
 
 <h1>Japanese Anime</h1>
@@ -149,53 +101,12 @@
 <!-- END MAIN -->
 </div>
 
-<script>
-filterSelection("all")
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("column");
-  if (c == "all") c = "";
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
 
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-  }
-}
-
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);     
-    }
-  }
-  element.className = arr1.join(" ");
-}
-
-
-// Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
-</script>
 
 </body>
 </html>
+
+
+
 
 
