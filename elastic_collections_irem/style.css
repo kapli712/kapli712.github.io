@@ -6,7 +6,8 @@
 
 body {
   font-family: 'Noto Sans JP', sans-serif;
-  background-color: black;
+  background: rgb(0,28,201);
+  background: linear-gradient(0deg, rgba(0,28,201,0.5942752100840336) 27%, rgba(105,0,150,0.711922268907563) 100%);
   padding: 20px;
 }
 
@@ -40,16 +41,15 @@ h1 {
   display: none; /* Hide all elements by default */
 }
 
-/* Clear floats after rows */ 
+/* Clear floats after rows 
 .row:after {
   content: "";
   display: table;
   clear: both;
-}
+}*/
 
 /* Content */
 .content {
-  background-color: white;
   padding: 10px;
 }
 
