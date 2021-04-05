@@ -24,7 +24,7 @@ body {
 
 h1 {
   font-size: 50px;
-  word-break: break-all;
+  text-align: center;
 }
 
 .row {
@@ -53,7 +53,7 @@ h1 {
 
 /* Content */
 .content {
-  background-color: white;
+  background-color: lightblue;
   padding: 10px;
 }
 
@@ -64,21 +64,98 @@ h1 {
 
 /* Style the buttons */
 .btn {
-  border: none;
-  background-color: inherit;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
-  display: inline-block;
 }
 
-/* On mouse-over */
-.btn:hover {background: #eee;
+/* Cardcaptor Sakura */
+.sakura {
+  border-color: #4CAF50;
+  color: green;
 }
 
-.btn.active {
-  background-color: #666;
+.sakura:hover {
+  background-color: #4CAF50;
   color: white;
+}
+
+/* Sailor Moon */
+.moon {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.moon:hover {
+  background: #2196F3;
+  color: white;
+}
+
+/* Cat Girl Nuku Nuku */
+.nuku {
+  border-color: #ff9800;
+  color: orange;
+}
+
+.nuku:hover {
+  background: #ff9800;
+  color: white;
+}
+
+/* Clamp */
+.clamp {
+  border-color: #f44336;
+  color: red
+}
+
+.clamp:hover {
+  background: #f44336;
+  color: white;
+}
+
+/* Hunter x Hunter */
+.hunter {
+  border-color: #e7e7e7;
+  color: black;
+}
+
+.hunter:hover {
+  background: #e7e7e7;
+}
+
+/* Marmalade Boy */
+.marm {
+  border-color: purple;
+  color: purple;
+}
+
+.marm:hover {
+  background: violet;
+  color: white;
+}
+/* Saint Trail */
+.saint {
+  border-color: beige;
+  color: yellow;
+}
+
+.saint:hover {
+  background: brown;
+  color: white;
+
+}
+
+/* Decetive Conan*/
+.conan {
+  border-color: #e7e7e7;
+  color: black;
+}
+
+.conan:hover {
+  background: #e7e7e7;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
