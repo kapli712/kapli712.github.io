@@ -36,8 +36,8 @@ h1 {
 
 /* Create three equal columns that floats next to each other */
 .column {
-  float: right;
-  width: 35%;
+  float: left;
+  width: 33.33%;
   display: none; /* Hide all elements by default */
 }
 
@@ -76,99 +76,12 @@ h1 {
   text-shadow:0px 1px 0px #9752cc;
 }
 
-/* Cardcaptor Sakura */
-.sakura {
-  border-color: #4CAF50;
-  color: green;
 }
-
-.sakura:hover {
-  background-color: #4CAF50;
-  color: white;
-}
-
-/* Sailor Moon */
-.moon {
-  border-color: #2196F3;
-  color: dodgerblue
-}
-
-.moon:hover {
-  background: #2196F3;
-  color: white;
-}
-
-/* Cat Girl Nuku Nuku */
-.nuku {
-  border-color: #ff9800;
-  color: orange;
-}
-
-.nuku:hover {
-  background: #ff9800;
-  color: white;
-}
-
-/* Clamp */
-.clamp {
-  border-color: #f44336;
-  color: red
-}
-
-.clamp:hover {
-  background: #f44336;
-  color: white;
-}
-
-/* Hunter x Hunter */
-.hunter {
-  border-color: #e7e7e7;
-  color: black;
-}
-
-.hunter:hover {
-  background: #e7e7e7;
-}
-
-/* Marmalade Boy */
-.marm {
-  border-color: purple;
-  color: purple;
-}
-
-.marm:hover {
-  background: violet;
-  color: white;
-}
-/* Saint Trail */
-.saint {
-  border-color: beige;
-  color: yellow;
-}
-
-.saint:hover {
-  background: brown;
-  color: white;
-
-}
-
-/* Decetive Conan*/
-.conan {
-  border-color: #e7e7e7;
-  color: black;
-}
-
-.conan:hover {
-  background: #e7e7e7;
-}
-
-
-}
-.myButton:hover {
+.btn:hover {
   background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
   background-color:#bc80ea;
 }
-.myButton:active {
+.btn:active {
   position:relative;
   top:1px;
 }
