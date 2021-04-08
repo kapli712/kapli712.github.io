@@ -2,8 +2,7 @@
 
 * {
   box-sizing: border-box;
-  border:10px solid pink;
-
+   
 }
 
 body {
@@ -11,6 +10,7 @@ body {
   background: rgb(0,28,201);
   background: linear-gradient(0deg, rgba(0,28,201,0.5942752100840336) 27%, rgba(105,0,150,0.711922268907563) 100%);
   padding: 20px;
+  border:5px solid pink;
 }
 
 /* Center website */
@@ -28,18 +28,21 @@ h1 {
 
 .row {
   margin: 10px -16px;
+  
 }
 
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
   padding: 10px;
+  
 }
 
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
   width: 33.33%;
+
   
 }
 
@@ -53,6 +56,7 @@ h1 {
 /* Content */
 .content {
   padding: 15px;
+  border:3px solid lightblue;
 }
 
 /* The "show" class is added to the filtered elements */
