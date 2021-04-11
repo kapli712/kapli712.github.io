@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
 
 * {
   box-sizing: border-box;
@@ -6,11 +6,12 @@
 }
 
 body {
-  font-family: 'Noto Sans JP', sans-serif;
-  background: rgb(0,28,201);
-  background: linear-gradient(0deg, rgba(0,28,201,0.5942752100840336) 27%, rgba(105,0,150,0.711922268907563) 100%);
+  font-family: 'New Tegomin', serif;
+  background: beige;
+  /*background: rgb(0,28,201);
+  background: linear-gradient(0deg, rgba(0,28,201,0.5942752100840336) 27%, rgba(105,0,150,0.711922268907563) 100%);*/
   padding: 20px;
-  border:5px solid pink;
+  
 }
 
 /* Center website */
@@ -20,10 +21,10 @@ body {
 }
 
 h1 {
-  font-family: 'Noto Sans JP', sans-serif;
-  font-size: 50px;
+  font-family: 'New Tegomin', serif;
+  font-size: 60px;
   text-align: center;
-  color: white;
+  color: blueviolet;
 }
 
 .row {
@@ -34,14 +35,15 @@ h1 {
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
-  padding: 10px;
-  
+  padding: 8px;
 }
+
 
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
   width: 33.33%;
+  display: none;
 
   
 }
@@ -66,23 +68,18 @@ h1 {
 
 /* Style the buttons */
 .btn {
-  font-family: 'Noto Sans JP', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  border: none;
+  font-family: 'New Tegomin', serif;
   box-shadow:inset 0px 1px 0px 0px #efdcfb;
   background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
   background-color:#dfbdfa;
-  border-radius:6px;
-  border:1px solid #c584f3;
-  display:inline-block;
   cursor:pointer;
   color:#ffffff;
-  font-size:15px;
-  font-weight:bold;
-  padding:6px 24px;
+  font-size:20px;
   text-decoration:none;
-  text-shadow:0px 1px 0px #9752cc;
-  padding: 10px;
-  margin: 10px;
-  align-items: center;
+  
 }
 
 
@@ -91,7 +88,8 @@ h1 {
   background-color:#bc80ea;
 }
 .btn:active {
-  position:relative;
+  display: flex;
+  justify-content: space-between;
   top:1px;
 }
 
@@ -106,5 +104,11 @@ h1 {
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
+  }
+
+  .btn {
+    display: grid;
+    display-template-columns; repeat (5, 1fr);
+    grid-gap: 5px;
   }
 }
