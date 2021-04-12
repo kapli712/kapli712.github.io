@@ -57,8 +57,8 @@ h1 {
 
 /* Content */
 .content {
-  padding: 15px;
-  border:3px solid lightblue;
+  padding: 5px;
+  border:none;
 }
 
 /* The "show" class is added to the filtered elements */
@@ -70,6 +70,7 @@ h1 {
 .btn {
   display: flex;
   justify-content: space-around;
+ 
   border: none;
   font-family: 'New Tegomin', serif;
   box-shadow:inset 0px 1px 0px 0px #efdcfb;
@@ -79,6 +80,7 @@ h1 {
   color:#ffffff;
   font-size:20px;
   text-decoration:none;
+
   
 }
 
