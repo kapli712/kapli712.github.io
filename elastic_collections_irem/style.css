@@ -99,18 +99,84 @@ h1 {
 
 @media screen and (max-width: 900px) {
   .column {
+    float: left;
     width: 50%;
+    display: none;
   }
+  /*Clear floats after rows*/ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
+/* Content */
+.content {
+  padding: 5px;
+  border:none;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
 
   .btn {
     display: grid;
     display-template-columns; repeat (5, 1fr);
     grid-gap: 5px;
   }
+  .btn:hover {
+  background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+  background-color:#bc80ea;
 }
+.btn:active {
+  display: flex;
+  justify-content: space-between;
+  top:1px;
+}
+
+ }
+
+@media screen and (max-width: 600px) {
+  .column {
+    float: left;
+    width: 100%;
+    display: none;
+
+  }
+
+
+  .btn {
+    display: grid;
+    display-template-columns; repeat (5, 1fr);
+    grid-gap: 5px;
+  }
+  /*Clear floats after rows*/ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  padding: 5px;
+  border:none;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+.btn:hover {
+  background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+  background-color:#bc80ea;
+}
+.btn:active {
+  display: flex;
+  justify-content: space-between;
+  top:1px;
+}
+
+  }
