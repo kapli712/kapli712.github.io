@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+body{
+  overflow-y: scroll;
+  animation: mymovea 10s infinite;
+}
+
+.main {
+  max-width: 1100px;
+  margin: auto;
+}
+
+@keyframes mymovea {
+  from {background-color: turquoise;}
+  to {background-color: black;}
+}
+
+#midground {
+	background: url(./images/midground.png) repeat 20% 20%;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: -1;
+	
+	-webkit-animation-name: STAR-MOVE;
+	-webkit-animation-duration: 150s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+}
+
+#foreground {
+	background: url(./images/foreground.png) repeat 35% 35%;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: -2;
+	
+	-webkit-animation-name: STAR-MOVE;
+	-webkit-animation-duration: 100s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+}
+
+img {
+width: 350px;
+height: 350px;
+border-radius: 50%;
+padding: 20px;
+
+}
+
+h1 {
+font-family: 'New Tegomin', serif;
+text-align: center;
+font-size: 80px;
+color: blueviolet;
+}
+
+
+
+
+
+.typewriter p {
+  color: blueviolet;
+  font-family: 'New Tegomin', serif;
+  text-align: center;
+font-size: 30px;
+padding-bottom: 40px;
+color: blueviolet;
+border-bottom:  5px solid blueviolet;
+animation: mymoveb 5s infinite;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  
+  animation: 
+    typing 4s infinite,
+    blink-caret 1s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: blueviolet }
+}
+@keyframes mymoveb {
+  50% {border-bottom:10px solid lightblue;}
+}
+
+input[type="button"] {
+	margin: 5px;
+    padding: 6px 10px;
+    transition: transform .3s;
+    border: none;
+    font-family: 'New Tegomin', serif;
+    box-shadow: inset 0px 1px 0px 0px #efdcfb;
+    background: linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+    background-color: #dfbdfa;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+input[type="button"]:hover {
+  transform: scale(.9);
+}
+
+
+.square {
+	float: left;
+        width: 33.33%;
+    overflow-x:hidden;
+    &:before {
+        content:"";
+        float: left;
+        width: 33.33%;
+        padding-top: 95%;
+    }
+}
+.item{
+  transition-duration: .4s;
+  opacity: 0;
+}
+.item.selected{
+  opacity:1;
+}
+.hidden {
+  display: none;
+}
+
+._col-no-gap {
+  column-gap: 0;
+}
+
+@media screen and (max-width: 900px) {
+ 
+ h1 {
+font-family: 'New Tegomin', serif;
+text-align: center;
+font-size: 70px;
+color: blueviolet;
+border-bottom:5px solid lightblue;
+border-bottom-style: dotted;
+}
+
+.typewriter p {
+	display:none;
+}
+
+.square {
+	float: left;
+        width: 50%;
+    overflow-x:hidden;
+    &:before {
+        content:"";
+        float: left;
+        width: 50%;
+        padding-top: 95%;
+    }
+
+.button{
+display: inline-grid;
+align-items: center;
+}
+  }
+@media screen and (max-width: 600px) {
+  h1 {
+font-family: 'New Tegomin', serif;
+text-align: center;
+font-size: 55px;
+color: blueviolet;
+border-bottom:5px solid lightblue;
+border-bottom-style: dotted;
+}
+
+.typewriter p {
+	display:none;
+}
+
+.square {
+	float: left;
+        width: 100%;
+    overflow-x:hidden;
+    &:before {
+        content:"";
+        float: left;
+        width: 100%;
+        padding-top: 95%;
+    }
+
+
+
+  }

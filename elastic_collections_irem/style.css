@@ -1,4 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+@import url("https://use.typekit.net/tzq5tgw.css");
+/*Eckmannpsych Large
+
+font-family: eckmannpsych-large, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Eckmannpsych Medium
+
+font-family: eckmannpsych-medium, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Eckmannpsych Small
+
+font-family: eckmannpsych-small, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;*/
+
+
+
+
 
 * {
   box-sizing: border-box;
@@ -81,7 +111,7 @@ h1 {
 /* Style the buttons */
 .btn {
   display: flex;
-  justify-content: space-around;
+  
  
   border: none;
   font-family: 'New Tegomin', serif;
