@@ -111,7 +111,7 @@ h1 {
 /* Style the buttons */
 .btn {
   display: flex;
-  
+  justify-content: space-around;
  
   border: none;
   font-family: 'New Tegomin', serif;
