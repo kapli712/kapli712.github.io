@@ -40,20 +40,20 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: grey;
+ background-color: transparent;
 }
 
 ul.topnav li {float: left;}
 
 ul.topnav li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 15px 15px;
   text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #111;}
+ul.topnav li a:hover:not(.active) {background-color: grey;}
 
 ul.topnav li a.active {background-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);}
 
@@ -61,14 +61,22 @@ ul.topnav li.right {float: right;}
 
 @media screen and (max-width: 600px) {
   ul.topnav li.right, 
-  ul.topnav li {float: none;}
+  ul.topnav li {float: none;
+   	
+
+}
   .border {
 display: none;
+ 	
+
+
 
 }
 input {
-
-  font-size: 20px;
+	top: 55%;
+border-radius: 50%;
+height: 250px;
+font-size: 20px;
 
 }
 }
