@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Chicle&display=swap');
 input {
-  position: absolute;
-  left: 0px;
+   position: absolute;
+  left: -60px;
   top: 50%;
   transform: translateY(-50%);
-  width: 100%;
+  width: 130%;
   border: none;
   background: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);;
   padding: 30px 33.33%;
@@ -14,19 +14,15 @@ input {
   font-weight: bold;
   outline: 0;
 }
-.border {
-  position: absolute;
-  border: 5px solid transparent;
-  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
-  border-image-slice: 1;
-width: 1240px;
-height: 595px;
-left: 95px;
-top: 95px;
-
-box-sizing: border-box;
-
+h1 {
+    font-size: 35px;
+   font-family: 'Chicle', cursive;
+     border-bottom: 2px;
+  border-bottom-style: dashed;
+  padding: 10px;
+  
 }
+
 
 body {
   transition: background 0.5s;
@@ -73,10 +69,11 @@ display: none;
 
 }
 input {
-	top: 55%;
+	top: 60%;
 border-radius: 50%;
+background: none;
 height: 250px;
-font-size: 20px;
-
+font-size: 30px;
+left: -30px;
 }
 }
